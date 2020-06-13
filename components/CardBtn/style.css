@@ -1,0 +1,37 @@
+
+.card-btn {
+
+}
+
+.pass {
+
+}
+
+.pass::after {
+
+}
+
+.pick {
+
+}
+
+.pick::after {
+
+}
+
+.pick:hover::after, .pass:hover::after {
+   animation: iconBounce .57s 1;
+}
+
+@keyframes iconBounce {
+   0% {
+      font-size: 24px;
+   }
+   50% {
+      font-size: 28px;
+   }
+   100% {
+      font-size: 24px;
+   }
+
+}
