@@ -35,7 +35,7 @@ class Discover extends Component {
          newState.match = false;
       }
 
-      // replace our component's state with newState, load the next dog
+      // replace our Discover page-component state with newState, load the next dog
       this.setState(newState);
       this.loadNextDog();
    };

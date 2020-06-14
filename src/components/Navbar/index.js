@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./style.css";
 
 // depending on current path, this component sets "active" class on navigation link item 

@@ -7,7 +7,7 @@ function Card(props) {
       <div 
          className="card"
          style={{
-            backgroundImage: props.image ? `url(${props.image})` : "none"
+            backgroundImage: props.image ? `url(${props.image})` : "none" // set background dog image if exists, else "none"
          }}
       >
          {!props.image && <i className="fa fa-spinner fa-spin" aria-hidden="true" />}
